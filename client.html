@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>client</title>
+
+    <!-- font-awesome -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/brands.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/regular.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/solid.min.css"
+    />
+
+    <!-- bootstrap -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+    />
+
+    <!-- css file -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar sticky-top navbar-expand-lg bg-white mt-3">
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img
+              src="./images/firstpage/logo.png"
+              alt="logo"
+              width="61"
+              height="61"
+              class="me-1"
+            />
+            <p class="fw-bold fs-2">
+              F<span class="text-primary fw-bolder">i</span>nder
+            </p>
+          </a>
+
+          <!-- Toggler -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar Links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-6">
+              <li class="nav-item mx-4">
+                <a
+                  class="navitem nav-link "
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item mx-2">
+                <a
+                  class="navitem nav-link  active text-primary fw-semibold"
+                  href="./client.html"
+                  target="_self"
+                  >Find A Client</a
+                >
+              </li>
+              <li class="nav-item mx-2">
+                <a class="navitem nav-link" href="./findjob.html" target="_self"
+                  >Find Jobs</a
+                >
+              </li>
+              <li class="nav-item mx-2">
+                <a class="navitem nav-link" href="./about.html" target="_self"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item mx-2">
+                <a class="navitem nav-link" href="./pricing.html" target="_self"
+                  >Pricing</a
+                >
+              </li>
+            </ul>
+
+            <!-- Buttons -->
+            <div class="d-flex gap-2 align-items-center fs-6">
+              <a
+                href="./signup.html"
+                target="_self"
+                class="btn btn-outline-primary rounded-pill px-4 py-2"
+                >Sign Up</a
+              >
+              <a
+                href="./signin.html"
+                target="_self"
+                class="btn btn-primary rounded-pill px-4 py-2"
+                >Log In</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="">
+        <div class="container py-5">
+          <div class="row align-items-center">
+            <!-- Left Image -->
+            <div class="col-lg-5 mb-lg-0">
+              <div class="image-box position-relative">
+                <img
+                  src="./images/clientimg/banner.png"
+                  alt="Client"
+                  class="img-fluid"
+                />
+                <div class="round-icon position-absolute top-0 end-0">
+                  <img
+                    src="./images/clientimg/corclelogo.png"
+                    alt="Round Icon"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Content -->
+            <div class="col-lg-7">
+              <h1 class="heading display-4 lh-1 fw-bold mt-6">
+                Find Your <span class="text-primary">Client</span> With <br />
+                Suitable <span class="text-primary">Projects</span>
+              </h1>
+              <p class="para fs-6 mt-5" style="width: 535px">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                fermentum enim odio, in dictum est auctor a. Curabitur tristique
+                risus ut pulvinar scelerisque. Vivamus blandit dapibus
+                pellentesque
+              </p>
+
+              <div class="row my-4 fw-semibold">
+                <div class="col-6 display-5">
+                  <h3>100k+ Clients</h3>
+                </div>
+                <div class="col-6 display-5 fw-bold">
+                  <h3>500k+ Projects</h3>
+                </div>
+              </div>
+
+              <!-- Tech Icons -->
+              <div class="d-flex flex-wrap gap-4 tech-icons">
+                <img
+                  src="./images/clientimg/skill-icons_java-dark.png"
+                  alt="Java"
+                />
+                <img
+                  src="./images/clientimg/skill-icons_figma-dark.png"
+                  alt="Figma"
+                />
+                <img
+                  src="./images/clientimg/skill-icons_photoshop.png"
+                  alt="Photoshop"
+                />
+                <img
+                  src="./images/clientimg/skill-icons_aftereffects.png"
+                  alt="Gmail"
+                />
+                <img
+                  src="./images/clientimg/skill-icons_illustrator.png"
+                  alt="Illustrator"
+                />
+                <img
+                  src="./images/clientimg/devicon_linkedin.png"
+                  alt="After Effects"
+                />
+                <img
+                  src="./images/clientimg/skill-icons_html.png"
+                  alt="HTML5"
+                />
+                <img
+                  src="./images/clientimg/logos_adobe-indesign (1).png"
+                  alt="InDesign"
+                />
+                <img
+                  src="./images/clientimg/skill-icons_gmail-dark.png"
+                  alt="Gmail"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5">
+        <div class="container mt-4 text-center">
+          <!-- Title -->
+          <h2 class="fs-1 fw-bold mb-5">
+            Check Out <span class="text-primary">Popularities</span>
+          </h2>
+
+          <!-- Dropdowns Row -->
+          <div
+            class="d-flex row justify-content-center align-items-center mb-4"
+          >
+            <div class="col-md-3 col-10">
+              <select
+                class="custom-select form-select p-2 flex-grow-1 py-3 px-2"
+              >
+                <option selected>Your Category</option>
+                <option>Web Development</option>
+                <option>Design</option>
+                <option>Marketing</option>
+              </select>
+            </div>
+            <div class="col-md-3 col-10">
+              <select class="custom-select form-select py-3 px-2">
+                <option selected>Location</option>
+                <option>India</option>
+                <option>USA</option>
+                <option>UK</option>
+              </select>
+            </div>
+            <div class="col-md-3 col-10">
+              <select class="custom-select form-select py-3 px-2">
+                <option selected>Type Of Projects</option>
+                <option>Freelance</option>
+                <option>Full Time</option>
+                <option>Contract</option>
+              </select>
+            </div>
+
+            <!-- Round Button -->
+            <div
+              class="col-md-1 col-12 d-flex justify-content-center"
+              style="width: 84px; height: 84px"
+            >
+              <img src="./images/clientimg/corclelogo.png" alt="Search" />
+            </div>
+          </div>
+          <div class="row d-flex">
+            <div class="card col-md-4 mb-3">
+              <div class="mycard row g-0">
+                <div class="col-md-8">
+                  <div class="card-body py-4 px-3">
+                    <h5 class="card-title fs-4 fw-bold">Ms Jackey Harsh</h5>
+                    <p class="card-text text-body-secondary fs-6">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Ut fermentum enim odio, in dictum est auctor a.
+                    </p>
+                    <hr />
+
+                    <div class="d-flex justify-content-between">
+                      <p class="card-text">
+                        <small class="fw-bold fs-5">User Friendly</small>
+                      </p>
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <hr />
+                    <div class="d-flex justify-content-between">
+                      <p class="card-text">
+                        <small class="fw-bold fs-5">Secure</small>
+                      </p>
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                      <div class="logo">
+                        <i class="fa-solid fa-star" style="color: #ffdd03"></i>
+                        <i class="fa-solid fa-star" style="color: #ffd700"></i>
+                        <i class="fa-solid fa-star" style="color: #ffd700"></i>
+                        <i class="fa-solid fa-star" style="color: #ffd700"></i>
+                        <i class="fa-solid fa-star" style="color: #ffd700"></i>
+                      </div>
+                      <p class="fs-5">4.9/5</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="./images/clientimg/jacky.png"
+                    class="img-fluid rounded-start align-items-center"
+                    alt="..."
+                    style="
+                      width: 100%;
+                      height: 100%;
+                      object-fit: cover;
+                      border-radius: 30px;
+                    "
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="card col-md-4 mb-3">
+              <div class="mycard row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title fs-4 fw-bold">Ms Jackey Harsh</h5>
+                    <p class="card-text text-body-secondary fs-6">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Ut fermentum enim odio, in dictum est auctor a.
+                    </p>
+                    <hr />
+
+                    <div class="d-flex justify-content-between">
+                      <p class="card-text">
+                        <small class="fw-bold fs-5">User Friendly</small>
+                      </p>
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <hr />
+                    <div class="d-flex justify-content-between">
+                      <p class="card-text">
+                        <small class="fw-bold fs-5">Secure</small>
+                      </p>
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                      <div class="logo">
+                        <i class="fa-solid fa-star" style="color: #ffdd03"></i>
+                        <i class="fa-solid fa-star" style="color: #ffd700"></i>
+                        <i class="fa-solid fa-star" style="color: #ffd700"></i>
+                        <i class="fa-solid fa-star" style="color: #ffd700"></i>
+                        <i class="fa-solid fa-star" style="color: #ffd700"></i>
+                      </div>
+                      <p class="fs-5">4.9/5</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="./images/clientimg/harsh.png"
+                    class="img-fluid rounded-start align-items-center"
+                    alt="..."
+                    style="
+                      width: 100%;
+                      height: 100%;
+                      object-fit: cover;
+                      border-radius: 30px;
+                    "
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="card col-md-4 mb-3">
+              <div class="mycard row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title fs-4 fw-bold">Ms Jackey Harsh</h5>
+                    <p class="card-text text-body-secondary fs-6">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Ut fermentum enim odio, in dictum est auctor a.
+                    </p>
+                    <hr />
+
+                    <div class="d-flex justify-content-between">
+                      <p class="card-text">
+                        <small class="fw-bold fs-5">User Friendly</small>
+                      </p>
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <hr />
+                    <div class="d-flex justify-content-between">
+                      <p class="card-text">
+                        <small class="fw-bold fs-5">Secure</small>
+                      </p>
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                      <div class="logo">
+                        <i class="fa-solid fa-star" style="color: #ffdd03"></i>
+                        <i class="fa-solid fa-star" style="color: #ffd700"></i>
+                        <i class="fa-solid fa-star" style="color: #ffd700"></i>
+                        <i class="fa-solid fa-star" style="color: #ffd700"></i>
+                        <i class="fa-solid fa-star" style="color: #ffd700"></i>
+                      </div>
+                      <p class="fs-5">4.9/5</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="./images/clientimg/lady.png"
+                    class="img-fluid rounded-start align-items-center"
+                    alt="..."
+                    style="
+                      width: 100%;
+                      height: 100%;
+                      object-fit: cover;
+                      border-radius: 30px;
+                    "
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <!-- Left Image -->
+            <div class="col-lg-6 text-center mt-6">
+              <img
+                src="./images/clientimg/happywomen.png"
+                alt="Girl with Laptop"
+                class="girl-img img-fluid"
+              />
+            </div>
+
+            <!-- Right Content -->
+            <div class="col-lg-6">
+              <h2 class="fw-bold mb-5 text-center text-lg-start">
+                How To <span >Reach</span> Out Clients
+              </h2>
+
+              <div class="row col-lg-6 d-flex mb-3 text-center">
+                <!-- Step 1 -->
+
+                <div class="step-box">
+                  <div class="step-icon text-center">
+                    <i class="fa-solid fa-circle-user text-center"></i>
+                  </div>
+
+                  <h5 class="step-heading fw-bold">Create Your Account</h5>
+                  <p class="text-muted fs-6">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+                <div class="step-number">
+                  <img
+                    src="./images/clientimg/01.png"
+                    alt="Step 1"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <!-- Step 2 -->
+              <div class="col-md-6">
+                <div class="step-box">
+                  <div class="step-icon text-center">
+                    <i class="fa-solid fa-circle-user text-center"></i>
+                  </div>
+
+                  <h5 class="step-heading fw-bold">Create Your Account</h5>
+                  <p class="text-muted fs-6">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+              <!-- Step 3 -->
+              <div class="col-md-6">
+                <div class="step-box">
+                  <div class="step-icon text-center">
+                    <i class="fa-solid fa-circle-user text-center"></i>
+                  </div>
+
+                  <h5 class="step-heading fw-bold">Create Your Account</h5>
+                  <p class="text-muted fs-6">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="clients-section py-5">
+        <div class="container">
+          <h2 class="fw-bold mb-4">
+            Join With Our Top <span class="">Clients</span>
+          </h2>
+
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div class="card border-0 shadow-sm">
+                <div class="card-body p-0">
+                  <!-- Main Image -->
+                  <img
+                    src="./images/clientimg/Subtract (3).png"
+                    alt="Clients"
+                    class="clients-img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Join Now Button -->
+          <div class="mt-4">
+            <a href="#" class="btn btn-join">Join Now</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <!-- Categories -->
+          <div class="col-md-3 col-sm-6">
+            <h6 class="fs-4">Categories</h6>
+            <ul class="fs-5">
+              <li><a href="#">Data Analytics</a></li>
+              <li><a href="#">Technology</a></li>
+              <li><a href="#">Business</a></li>
+              <li><a href="#">Hand On Projects</a></li>
+              <li><a href="#">Personal Growth</a></li>
+              <li><a href="#">System Analytics</a></li>
+              <li><a href="#">Software</a></li>
+            </ul>
+          </div>
+
+          <!-- For Freelancer -->
+          <div class="col-md-3 col-sm-6">
+            <h6 class="fs-4">For Freelancer</h6>
+            <ul class="fs-5">
+              <li><a href="#">How to find work</a></li>
+              <li><a href="#">How to sign up</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Direct Contracts</a></li>
+            </ul>
+          </div>
+
+          <!-- Resources -->
+          <div class="col-md-3 col-sm-6">
+            <h6 class="fs-4">Resources</h6>
+            <ul class="fs-5">
+              <li><a href="#">Help & Support</a></li>
+              <li><a href="#">Human Resources</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">Business Tools</a></li>
+              <li><a href="#">Marketing</a></li>
+            </ul>
+          </div>
+
+          <!-- Our Company -->
+          <div class="col-md-3 col-sm-6">
+            <h6 class="fs-4">Our Company</h6>
+            <ul class="fs-5">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Reviews</a></li>
+              <li><a href="#">Leadership</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Logo + Socials -->
+        <div class="row mt-4 align-items-center">
+          <div class="col-md-6 d-flex align-items-center">
+            <div class="footer-logo">
+              <a href="#" class="navbar-brand d-flex align-items-center">
+                <img
+                  src="./images/firstpage/logo.png"
+                  alt="logo"
+                  width="61"
+                  height="61"
+                  class="me-1"
+                />
+                <p class="fw-bold fs-2">
+                  F<span class="text-primary fw-bolder">i</span>nder
+                </p>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 text-md-end social-icons">
+            <span>Follow Us</span>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Bottom -->
+        <div
+          class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center"
+        >
+          <p class="mb-0">
+            &copy; 2012–2025 <a href="#">Finder.com</a> All Copyrights Reserved
+          </p>
+          <div class="d-flex align-items-center">
+            <a href="#" class="me-3 text-decoration-none"
+              >Download Mobile App</a
+            >
+            <i class="fab fa-apple fa-lg me-2"></i>
+            <i class="fab fa-android fa-lg"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+      integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
