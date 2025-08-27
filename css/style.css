@@ -666,51 +666,40 @@ h2 span {
   border: none;
 }
 .step-box {
-  background: #f8f9fa;
-  border-radius: 15px;
-  padding: 25px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
   position: relative;
-  transition: 0.3s;
-}
-.step-box:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-.step-number {
-  position: absolute;
-  right: -1250px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 .step-icon {
   width: 40px;
   height: 40px;
-  background: #1e1e1e;
+  background: #3366ff;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
   font-size: 18px;
-  margin-bottom: 10px;
+  position: absolute;
+  top: -20px;
+  right: -20px;
 }
-.step-heading {
-  color: #1e1e1e;
+.step-number {
+  font-size: 72px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.05);
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  z-index: 0;
 }
-.highlight {
-  color: #0d6efd;
-}
-.girl-img {
-  max-width: 100%;
-}
-
-.highlight {
-  color: #0d6efd;
-}
-.clients-section {
-  text-align: center;
-  margin: 60px 0;
-}
-.clients-img {
-  width: 100%;
-  border-radius: 20px;
+.step-box h5,
+.step-box p {
+  position: relative;
+  z-index: 1;
 }
 .btn-join {
   background: #0d6efd;
